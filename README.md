@@ -7,10 +7,6 @@ By reading the dataset into a dataframe using pandas, we removed unnecessary dat
 2. Analyze initial DataFrame
 Utilizing Matplotlib, Seaborn and Pandas, we next analyzed the data. We can see that our dataset was imbalanced. The majority class, "Stays" (0), has around 80% data points and the minority class, "Exits" (1), has around 20% datapoints. To address this, we utilized SMOTE in our machine learning algorithms (Synthetic Minority Over-sampling Technique). More on that later on.
 
-In percentage, female customers are more likely to leave the bank at 25%, compared to 16% of males.
-
-The smallest number of customers are from Germany, and they are also the most likely to leave the bank. Almost one in three German customers in our sample left the bank.
-
 3. Machine Learning using 7 different models
 We tested seven different machine learning models (and used six in the final application) to predict customer churn, including Logistic Regression, Decision Tree, Random Forest, Deep Learning (TensorFlow), K-Nearest Neighbor, Support Vector Machine and XGBoost.
 
