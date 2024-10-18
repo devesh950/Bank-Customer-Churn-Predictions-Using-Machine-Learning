@@ -1,0 +1,1 @@
+Identifying customer churn in banks will helps the management to classification who are likely to churn early and target customers using promotions, as well as provide insight into which factors should be considered when retaining customers.
